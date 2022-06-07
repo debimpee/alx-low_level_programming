@@ -5,7 +5,7 @@
  *
  * Return Always 0 (Success)
  */
-int main(void)
+int main(int argc, char *argv[])
 {
 char a;
 int b;
