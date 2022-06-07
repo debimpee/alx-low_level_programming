@@ -5,7 +5,7 @@
  *
  * Return Always 0 (Success)
  */
-int main(int argc, char *argv[])
+int main(void)
 {
 char a;
 int b;
@@ -18,5 +18,6 @@ printf("Size of an int: %zu byte(s)\n", sizeof(b));
 printf("Size of a long int: %zu byte(s)\n", sizeof(c));
 printf("Size of a long long int: %zu byte(s)\n", sizeof(d));
 printf("Size of a float: %zu byte(s)\n", sizeof(e));
+
 return (0);
 }
