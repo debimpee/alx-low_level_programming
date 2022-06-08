@@ -2,6 +2,7 @@
 
 /**
  * main - print alphabets
+ * allowed to use putchar 2x maximum.
  *
  * Return: Always 0 (Success)
  */
