@@ -1,10 +1,8 @@
 #include "main.h"
 
 /**
- * main - print alphabets
- *
- * allowed to use putchar 2x maximum.
- *
+ * print_alphabet - prints alphabets in lower case
+ * 
  * Return: Always 0 (Success)
  */
 void print_alphabet(void)
