@@ -11,7 +11,6 @@
 char *_strpbrk(char *s, char *accept)
 {
 	int index;
-	unsigned int bytes = 0;
 
 	while (*s)
 	{
