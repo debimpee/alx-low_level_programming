@@ -8,6 +8,7 @@
  *
  * Return: NULL on failure
  *         NULL if width or height is 0 or negative.
+ *         otherwise a pointer to the 2 dimensional array of integers.
  */
 int **alloc_grid(int width, int height)
 {
@@ -32,7 +33,7 @@ int **alloc_grid(int width, int height)
 	}
 	for (height_index = 0; height_index < height; height_index++)
 	{
-		for (width_index = 0; width_index < width_index++)
+		for (width_index = 0; width_index < width; width_index++)
 			twoD[height_index][width_index] = 0;
 	}
 	return (twoD);
