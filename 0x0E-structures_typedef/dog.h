@@ -2,9 +2,9 @@
 #define DOG_H
 
 /**
- * struct dog - a new type describing a dog.
- * @name: the name of the dog
- * @age: the age of the dog
+ * struct dog - A new type describing a dog.
+ * @name: the name of the dog.
+ * @age: the age of the dog.
  * @owner: the owner of the dog
  */
 typedef struct dog
@@ -13,4 +13,3 @@ typedef struct dog
 	float age;
 	char *owner;
 }       dog;
-#endif
