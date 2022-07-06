@@ -3,7 +3,7 @@
 
 /**
  * free_dog - a function that frees dogs
- * d: the dog to be free
+ * @d: the dog to be freed
  */
 void free_dog(dog_t *d)
 {
@@ -11,5 +11,5 @@ void free_dog(dog_t *d)
 		return;
 	free(d->owner);
 	free(d->name);
-	free(d)
+	free(d);
 }
